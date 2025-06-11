@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Project } from "@/data/users";
+import { Project } from "@/data/types/users";
 import { ExternalLink, Play } from "lucide-react";
 import Image from "next/image";
 import React from "react";

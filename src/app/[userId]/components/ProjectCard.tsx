@@ -1,4 +1,4 @@
-import { Project } from "@/data/users";
+import { Project } from "@/data/types/users";
 import Image from "next/image";
 
 function ProjectCard({ project }: { project: Project }) {

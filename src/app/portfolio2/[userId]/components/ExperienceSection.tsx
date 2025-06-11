@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Experience } from "@/data/users";
+import { Experience } from "@/data/types/users";
 import { Award, Calendar, Play, Star, TrendingUp, Users } from "lucide-react";
 import Image from "next/image";
 

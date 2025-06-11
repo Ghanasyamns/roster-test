@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Experience } from "@/data/users";
+import { Experience } from "@/data/types/users";
 import { Briefcase, Calendar, ExternalLink, Play, Users } from "lucide-react";
 import Image from "next/image";
 import ProjectCard from "./ProjectCard";

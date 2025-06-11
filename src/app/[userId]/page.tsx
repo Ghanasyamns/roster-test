@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import BasicInfo from "./components/BasicInfo";
 import WorkInfo from "./components/WorkInfo";
-import { User } from "@/data/users";
+import { User } from "@/data/types/users";
 import { ApiResponse } from "@/data/api";
 
 type Params = Promise<{ userId: string }>;

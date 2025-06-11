@@ -1,5 +1,5 @@
 import { ApiResponse } from "@/data/api";
-import { User, users } from "@/data/users";
+import { User, users } from "@/data/types/users";
 import { NextRequest, NextResponse } from "next/server";
 
 // Type definitions

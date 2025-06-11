@@ -1,4 +1,4 @@
-import { Profile } from "@/data/users";
+import { Profile } from "@/data/types/users";
 
 function Navbar({ profile }: { profile: Profile }) {
   return (

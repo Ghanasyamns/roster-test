@@ -21,7 +21,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import { EmploymentType, Experience } from "@/data/users";
+import { EmploymentType, Experience } from "@/data/types/users";
 import { useState } from "react";
 
 interface ExperienceFormProps {

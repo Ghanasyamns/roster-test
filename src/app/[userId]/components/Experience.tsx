@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import EmployerDetails from "./EmployerDetails";
 import ProjectCard from "./ProjectCard";
-import type { Experience } from "@/data/users";
+import type { Experience } from "@/data/types/users";
 import ExperienceForm from "./ExperienceForm";
 import { useState } from "react";
 type Props = {

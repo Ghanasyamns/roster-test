@@ -1,5 +1,5 @@
 import { ApiResponse } from "@/data/api";
-import { Experience, User } from "@/data/users";
+import { Experience, User } from "@/data/types/users";
 import { clsx, type ClassValue } from "clsx";
 import { notFound } from "next/navigation";
 import { twMerge } from "tailwind-merge";

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Profile } from "@/data/users";
+import { Profile } from "@/data/types/users";
 import { formatSubscribers } from "@/lib/utils";
 import { Download, Mail, MapPin } from "lucide-react";
 import Image from "next/image";

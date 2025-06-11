@@ -1,4 +1,4 @@
-import { User } from "@/data/users";
+import { User } from "@/data/types/users";
 import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 
