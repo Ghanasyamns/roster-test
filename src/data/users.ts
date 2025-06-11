@@ -230,7 +230,7 @@ const users: User[] = [
       {
         id: "1",
         employer_name: "Creative Minds Agency",
-        subscriber_count: "N/A",
+        subscriber_count: "300K",
         job_title: "Senior Graphic Designer",
         job_type: "Full Time",
         no_of_projects: 20,

@@ -3,10 +3,12 @@ import {
   calcTotalSubscribers,
   getUserData,
 } from "@/lib/utils";
-import AboutMe from "./components/AboutMe";
-import ContactSection from "./components/ContactSection";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import ExperienceSection from "./components/ExperienceSection";
-import HeroSection from "./components/HeroSection";
+import Footer from "./components/Footer";
+import HeroImageSection from "./components/HeroImageSection";
+import Navbar from "./components/Navbar";
 
 type Params = Promise<{ userId: string }>;
 
@@ -14,25 +16,22 @@ async function page({ params }: { params: Params }) {
   const { userId } = await params;
   const userData = await getUserData(userId);
   const { profile, profile_summary, experience } = userData;
+
   const totalProjects = calcTotalProjects(experience);
   const totalSubscribers = calcTotalSubscribers(experience);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-gray-100">
-      {/* Hero Section */}
-      <HeroSection
+    <div className="min-h-screen bg-gray-900 text-white">
+      <Navbar profile={profile} />
+      <HeroImageSection
         profile={profile}
-        totalSubscribers={totalSubscribers}
         totalProjects={totalProjects}
+        totalSubscribers={totalSubscribers}
       />
-      {/* About Section */}
-      <div className="container py-16">
-        <AboutMe profile_summary={profile_summary} />
-        {/* Experience Section */}
-        <ExperienceSection experience={experience} />
-        {/* Contact Section */}
-        <ContactSection />
-      </div>
+      <About profile_summary={profile_summary} />
+      <ExperienceSection experiences={experience} />
+      <Contact />
+      <Footer name={profile.name} />
     </div>
   );
 }
