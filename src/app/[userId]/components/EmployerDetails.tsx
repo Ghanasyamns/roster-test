@@ -1,14 +1,21 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Experience } from "@/data/users";
-
-function EmployerDetails({ experience }: { experience: Experience }) {
+import { convertDate } from "@/lib/utils";
+import ExperienceForm from "./ExperienceForm";
+import { Button } from "@/components/ui/button";
+type Props = {
+  experience: Experience;
+  handleEditExperience: (updatedExperience: Experience) => void;
+};
+function EmployerDetails({ experience, handleEditExperience }: Props) {
   const {
     employer_name,
     subscriber_count,
     job_type,
     job_title,
     no_of_projects,
-    job_duration,
+    job_duration_start,
+    job_duration_end,
     job_summary,
   } = experience;
   return (
@@ -35,9 +42,19 @@ function EmployerDetails({ experience }: { experience: Experience }) {
             {no_of_projects}
           </div>
         </div>
-        <p className="text-gray-600 text-sm mt-2">{job_duration}</p>
+        <p className="text-gray-600 text-sm mt-2">
+          {convertDate(job_duration_start)} - {convertDate(job_duration_end)}
+        </p>
       </div>
-      <p className="text-gray-500">{job_summary}</p>
+      <div className="flex justify-between gap-2">
+        <p className="text-gray-500">{job_summary}</p>
+        <ExperienceForm
+          mode="edit"
+          experience={experience}
+          onSubmit={handleEditExperience}
+          triggerButton={<h6 className="underline cursor-pointer">Edit</h6>}
+        />
+      </div>
     </div>
   );
 }

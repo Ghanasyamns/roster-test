@@ -12,14 +12,16 @@ interface Profile {
   location: string;
 }
 interface Experience {
-  employer_name: string;
-  subscriber_count: string;
+  id: string;
+  employer_name?: string;
+  subscriber_count?: string;
   job_title: string;
-  job_type: string;
-  no_of_projects: number;
+  job_type: EmploymentType;
+  no_of_projects?: number;
   job_summary: string;
-  job_duration: string;
-  projects: Project[];
+  job_duration_start: string;
+  job_duration_end: string;
+  projects?: Project[];
 }
 interface Project {
   thumbnail: string;
@@ -27,7 +29,7 @@ interface Project {
   video_url: string;
   job_role: string;
 }
-
+type EmploymentType = "Full Time" | "Contract";
 const users: User[] = [
   {
     id: "sam",
@@ -42,12 +44,14 @@ const users: User[] = [
       "For the past 12 years, I have assisted creators in gaining over 35 million subscribers and hundreds of millions of views. Since 2024, I have also taken on roles that focus on creative direction and ideation. I am seeking a long-term, full-time job where I can grow and thrive.",
     experience: [
       {
+        id: "1",
         employer_name: "Tech Insights Channel",
         subscriber_count: "850K",
         job_title: "Motion Graphics Artist",
-        job_type: "Part-time",
+        job_type: "Full Time",
         no_of_projects: 8,
-        job_duration: "Jan 2023 - Present",
+        job_duration_start: "11 January 2023",
+        job_duration_end: "16 January 2023",
         job_summary:
           "Created engaging motion graphics and animated intros/outros for weekly tech review videos, significantly enhancing visual appeal and viewer retention.",
         projects: [
@@ -75,12 +79,14 @@ const users: User[] = [
         ],
       },
       {
+        id: "2",
         employer_name: "Daniel Doe",
         subscriber_count: "1.2M",
         job_title: "Video Editor",
-        job_type: "Full-time",
+        job_type: "Contract",
         no_of_projects: 5,
-        job_duration: "sep 2023 - sept 2024",
+        job_duration_start: "Jan 2023",
+        job_duration_end: "Sep 2024",
         job_summary:
           "I worked with Daniel on a one-time project as a thumbnail designer for his interview with Ryan Tedder.",
         projects: [
@@ -110,12 +116,14 @@ const users: User[] = [
       "A passionate content creator with 8 years of experience in digital storytelling. Specializing in lifestyle vlogs and short-form educational content, I've helped channels grow by 150% in viewership and engagement. I'm looking for collaborative projects that challenge creative boundaries.",
     experience: [
       {
+        id: "1",
         employer_name: "Digital Trends",
         subscriber_count: "500K",
         job_title: "Lead Content Producer",
-        job_type: "Full-time",
+        job_type: "Contract",
         no_of_projects: 12,
-        job_duration: "sep 2023 - sept 2024",
+        job_duration_start: "Jan 2023",
+        job_duration_end: "Sep 2024",
         job_summary:
           "Managed end-to-end content production for daily vlogs and sponsored segments, increasing subscriber engagement by 25% over two years.",
         projects: [
@@ -136,12 +144,14 @@ const users: User[] = [
         ],
       },
       {
+        id: "2",
         employer_name: "Digital Storytellers Inc.",
         subscriber_count: "2.5M",
         job_title: "Senior Video Editor",
-        job_type: "Full-time",
+        job_type: "Full Time",
         no_of_projects: 15,
-        job_duration: "Mar 2021 - Feb 2025",
+        job_duration_start: "Jan 2023",
+        job_duration_end: "Sep 2024",
         job_summary:
           "Led post-production for high-profile documentary series and brand collaborations, achieving a 30% increase in viewership for key projects.",
         projects: [
@@ -169,12 +179,14 @@ const users: User[] = [
         ],
       },
       {
+        id: "3",
         employer_name: "Global News Network",
         subscriber_count: "10M+",
         job_title: "Broadcast Journalist & Editor",
-        job_type: "Full-time",
+        job_type: "Contract",
         no_of_projects: 25,
-        job_duration: "Oct 2018 - Jan 2021",
+        job_duration_start: "Jan 2023",
+        job_duration_end: "Sep 2024",
         job_summary:
           "Responsible for editing news segments, interviews, and special reports for national broadcast, ensuring timely and accurate delivery.",
         projects: [
@@ -216,12 +228,14 @@ const users: User[] = [
       "Creative graphic designer with 10 years of experience in branding and visual communication. I specialize in crafting compelling visual narratives for digital platforms and print media, with a proven track record of increasing brand recognition by 40%. Seeking innovative design challenges.",
     experience: [
       {
+        id: "1",
         employer_name: "Creative Minds Agency",
         subscriber_count: "N/A",
         job_title: "Senior Graphic Designer",
-        job_type: "Full-time",
+        job_type: "Full Time",
         no_of_projects: 20,
-        job_duration: "sep 2023 - sept 2024",
+        job_duration_start: "Jan 2023",
+        job_duration_end: "Sep 2024",
         job_summary:
           "Led design projects from concept to completion, including logo design, marketing collateral, and social media graphics for diverse clients.",
         projects: [
@@ -245,4 +259,11 @@ const users: User[] = [
   },
 ];
 
-export { users, type User, type Profile, type Experience, type Project };
+export {
+  users,
+  type User,
+  type Profile,
+  type Experience,
+  type Project,
+  type EmploymentType,
+};

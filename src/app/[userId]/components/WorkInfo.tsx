@@ -6,7 +6,7 @@ function WorkInfo({ data }: { data: User }) {
   return (
     <section className="flex flex-col gap-5">
       <AboutMe summary={data?.profile_summary} />
-      <Experience experience={data.experience} />
+      <Experience userId={data.id} experience={data.experience} />
     </section>
   );
 }

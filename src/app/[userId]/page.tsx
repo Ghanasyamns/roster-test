@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import BasicInfo from "./components/BasicInfo";
 import WorkInfo from "./components/WorkInfo";
 import { User } from "@/data/users";
@@ -27,15 +26,11 @@ const getUserData = async (userId: string) => {
 async function page({ params }: { params: Params }) {
   const { userId } = await params;
   const userData = await getUserData(userId);
-  console.log(userData);
   return (
-    <main className="container">
-      <Navbar />
-      <div className="grid grid-cols-1 lg:grid-cols-[17.5rem_1fr] items-start gap-5 lg:gap-20 mt-5 lg:mt-10">
-        <BasicInfo profile={userData?.profile} />
-        <WorkInfo data={userData} />
-      </div>
-    </main>
+    <div className="grid grid-cols-1 lg:grid-cols-[17.5rem_1fr] items-start gap-5 lg:gap-20 mt-5 lg:mt-10">
+      <BasicInfo profile={userData?.profile} />
+      <WorkInfo data={userData} />
+    </div>
   );
 }
 
