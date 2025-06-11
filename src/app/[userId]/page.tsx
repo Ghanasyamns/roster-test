@@ -29,6 +29,8 @@ const getUserData = async (userId: string) => {
 async function page({ params }: { params: Params }) {
   const { userId } = await params;
   const userData = await getUserData(userId);
+  console.log(userData);
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-[17.5rem_1fr] items-start gap-5 lg:gap-20 mt-5 lg:mt-10">
       <BasicInfo profile={userData?.profile} />
