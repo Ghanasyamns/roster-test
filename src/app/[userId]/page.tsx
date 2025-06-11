@@ -1,6 +1,8 @@
+import { notFound } from "next/navigation";
 import BasicInfo from "./components/BasicInfo";
 import WorkInfo from "./components/WorkInfo";
 import { User } from "@/data/users";
+import { ApiResponse } from "@/data/api";
 
 type Params = Promise<{ userId: string }>;
 
@@ -15,11 +17,12 @@ const getUserData = async (userId: string) => {
         },
       }
     );
-    const jsonData: Promise<{ data: User }> = await response.json();
-    return (await jsonData).data;
+    const jsonResponse: Promise<ApiResponse<User>> = await response.json();
+    const jsonData = await jsonResponse;
+    if (!jsonData.success) return notFound();
+    return jsonData.data!;
   } catch (error) {
-    console.log(error);
-    throw error;
+    return notFound();
   }
 };
 

@@ -1,13 +1,8 @@
+import { ApiResponse } from "@/data/api";
 import { User, users } from "@/data/users";
 import { NextRequest, NextResponse } from "next/server";
 
 // Type definitions
-
-interface ApiResponse<T> {
-  success: boolean;
-  data?: T;
-  error?: string;
-}
 
 // Mock user data - replace with your actual data source
 
@@ -28,7 +23,6 @@ export async function GET(
         { status: 400 }
       );
     }
-
     // Validate userId format (optional - add your own validation logic)
     if (userId.trim().length === 0) {
       return NextResponse.json(

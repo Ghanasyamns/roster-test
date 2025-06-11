@@ -23,7 +23,6 @@ function EmployerDetails({ experience, handleEditExperience }: Props) {
       <div className="flex gap-5">
         <Avatar className="rounded-full w-12 h-12  overflow-hidden">
           <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-          <AvatarFallback></AvatarFallback>
         </Avatar>
         <div>
           <h4 className="font-semibold text-sm lg:text-lg">{employer_name}</h4>
