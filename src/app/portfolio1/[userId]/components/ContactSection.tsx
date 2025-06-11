@@ -7,8 +7,8 @@ function ContactSection() {
       <CardContent className="p-8 text-center">
         <h3 className="text-3xl font-bold mb-4">Ready to Collaborate?</h3>
         <p className="text-xl text-blue-100 mb-6">
-          Let's create something amazing together. I'm available for new
-          opportunities and exciting projects.
+          Let&apos;s create something amazing together. I&apos;m available for
+          new opportunities and exciting projects.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <Button

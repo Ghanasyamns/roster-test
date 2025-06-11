@@ -1,9 +1,6 @@
-"use client";
-
-import React, { useState, useEffect } from "react";
-import { User, Briefcase, ExternalLink } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Briefcase, ExternalLink, User } from "lucide-react";
 import Link from "next/link";
 
 interface Profile {

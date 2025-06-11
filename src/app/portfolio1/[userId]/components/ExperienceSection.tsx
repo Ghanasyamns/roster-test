@@ -1,5 +1,4 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,8 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Experience } from "@/data/types/users";
-import { Briefcase, Calendar, ExternalLink, Play, Users } from "lucide-react";
-import Image from "next/image";
+import { Briefcase, Calendar, Users } from "lucide-react";
 import ProjectCard from "./ProjectCard";
 
 function ExperienceSection({ experience }: { experience: Experience[] }) {
@@ -19,7 +17,7 @@ function ExperienceSection({ experience }: { experience: Experience[] }) {
         Experience
       </h2>
       <div className="space-y-8">
-        {experience.map((exp, index) => (
+        {experience.map((exp) => (
           <Card
             key={exp.id}
             className="shadow-xl border-0 bg-white/80 backdrop-blur-sm hover:shadow-2xl transition-all duration-300"

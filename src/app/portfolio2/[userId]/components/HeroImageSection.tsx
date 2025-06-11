@@ -21,7 +21,7 @@ function HeroImageSection({ profile, totalProjects, totalSubscribers }: Props) {
                 Available for Opportunities
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
                   {profile.name}
                 </span>

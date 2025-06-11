@@ -21,7 +21,7 @@ const getUserData = async (userId: string) => {
     const jsonData = await jsonResponse;
     if (!jsonData.success) return notFound();
     return jsonData.data!;
-  } catch (error) {
+  } catch (_) {
     return notFound();
   }
 };

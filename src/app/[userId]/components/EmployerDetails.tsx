@@ -1,8 +1,7 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { Experience } from "@/data/types/users";
 import { convertDate } from "@/lib/utils";
 import ExperienceForm from "./ExperienceForm";
-import { Button } from "@/components/ui/button";
 type Props = {
   experience: Experience;
   handleEditExperience: (updatedExperience: Experience) => void;
