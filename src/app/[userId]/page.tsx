@@ -6,6 +6,11 @@ import { ApiResponse } from "@/data/api";
 
 export const revalidate = 300;
 export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  return [];
+}
+
 type Params = Promise<{ userId: string }>;
 
 const getUserData = async (userId: string) => {
@@ -13,6 +18,7 @@ const getUserData = async (userId: string) => {
     const response = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${userId}`,
       {
+        next: { revalidate: 60 },
         method: "GET",
         headers: {
           "content-type": "application/json",
