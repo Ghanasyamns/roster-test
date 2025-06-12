@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Experience } from "@/data/types/users";
+import { convertDate } from "@/lib/utils";
 import { Award, Calendar, Play, Star, TrendingUp, Users } from "lucide-react";
 import Image from "next/image";
 
@@ -40,7 +41,8 @@ function ExperienceSection({ experiences }: { experiences: Experience[] }) {
                     <div className="flex items-center gap-2 text-gray-400 mb-4">
                       <Calendar className="w-4 h-4" />
                       <span>
-                        {exp.job_duration_start} - {exp.job_duration_end}
+                        {convertDate(exp.job_duration_start)} -{" "}
+                        {convertDate(exp.job_duration_end)}
                       </span>
                     </div>
                   </div>

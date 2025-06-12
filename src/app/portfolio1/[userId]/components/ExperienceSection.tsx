@@ -9,6 +9,7 @@ import {
 import { Experience } from "@/data/types/users";
 import { Briefcase, Calendar, Users } from "lucide-react";
 import ProjectCard from "./ProjectCard";
+import { convertDate } from "@/lib/utils";
 
 function ExperienceSection({ experience }: { experience: Experience[] }) {
   return (
@@ -58,7 +59,8 @@ function ExperienceSection({ experience }: { experience: Experience[] }) {
               <div className="flex items-center gap-2 text-gray-500 mt-2">
                 <Calendar className="w-4 h-4" />
                 <span>
-                  {exp.job_duration_start} - {exp.job_duration_end}
+                  {convertDate(exp.job_duration_start)} -{" "}
+                  {convertDate(exp.job_duration_end)}
                 </span>
               </div>
             </CardHeader>
