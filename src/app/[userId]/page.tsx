@@ -4,6 +4,8 @@ import WorkInfo from "./components/WorkInfo";
 import { User } from "@/data/types/users";
 import { ApiResponse } from "@/data/api";
 
+export const revalidate = 300;
+export const dynamicParams = true;
 type Params = Promise<{ userId: string }>;
 
 const getUserData = async (userId: string) => {
