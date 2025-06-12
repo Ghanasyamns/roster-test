@@ -3,6 +3,7 @@ import BasicInfo from "./components/BasicInfo";
 import WorkInfo from "./components/WorkInfo";
 import { User } from "@/data/types/users";
 import { ApiResponse } from "@/data/api";
+import Navbar from "@/components/Navbar";
 
 export const revalidate = 300;
 export const dynamicParams = true;
@@ -40,10 +41,13 @@ async function page({ params }: { params: Params }) {
   console.log(userData);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[17.5rem_1fr] items-start gap-5 lg:gap-20 mt-5 lg:mt-10">
-      <BasicInfo profile={userData?.profile} />
-      <WorkInfo data={userData} />
-    </div>
+    <>
+      <Navbar />
+      <div className="container grid grid-cols-1 lg:grid-cols-[17.5rem_1fr] items-start gap-5 lg:gap-20 mt-5 lg:mt-10">
+        <BasicInfo profile={userData?.profile} />
+        <WorkInfo data={userData} />
+      </div>
+    </>
   );
 }
 

@@ -20,21 +20,21 @@ const designOptions: DesignOption[] = [
     label: "Creative Showcase",
     description: "Bold and artistic presentation",
   },
-  // {
-  //   value: "design3",
-  //   label: "Corporate Elite",
-  //   description: "Sophisticated business style",
-  // },
-  // {
-  //   value: "design4",
-  //   label: "Tech Innovator",
-  //   description: "Futuristic and dynamic design",
-  // },
-  // {
-  //   value: "design5",
-  //   label: "Artistic Flair",
-  //   description: "Vibrant and expressive layout",
-  // },
+  {
+    value: "portfolio3",
+    label: "Corporate Elite",
+    description: "Sophisticated business style",
+  },
+  {
+    value: "portfolio4",
+    label: "Tech Innovator(light/dark)",
+    description: "Futuristic and dynamic design",
+  },
+  {
+    value: "portfolio5",
+    label: "Artistic Flair",
+    description: "Vibrant and expressive layout",
+  },
 ];
 export default function Home() {
   const [selectedDesign, setSelectedDesign] = useState<string>(

@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center h-[70px] border-b border-b-gray-200 sticky top-0 bg-white z-50">
+    <div className="container px-4 flex justify-between items-center h-[70px] border-b border-b-gray-200 sticky top-0 bg-white z-50">
       <h1 className="text-2xl lg:text-4xl font-bold text-[#171717">roster</h1>
       <div className="  gap-3 hidden lg:flex">
         <p className="text-sm lg:text-lg font-medium text-gray-500">
