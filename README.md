@@ -1,666 +1,533 @@
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/ignore_list.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2025-06-12T09:56:39.901102Z",
-"filename": "settings.py",
-"func_name": "\_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/languages.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2025-06-12T09:56:39.901919Z",
-"filename": "settings.py",
-"func_name": "\_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/parsers.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2025-06-12T09:56:39.902636Z",
-"filename": "settings.py",
-"func_name": "\_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/prompts.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2025-06-12T09:56:39.903716Z",
-"filename": "settings.py",
-"func_name": "\_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/tool_config.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2025-06-12T09:56:39.910029Z",
-"filename": "settings.py",
-"func_name": "\_load_settings",
-"lineno": 276
-}
-{
-"event": "Configuration file loaded: /home/adminuser/venv/lib/python3.11/site-packages/readmeai/config/settings/tooling.toml",
-"level": "info",
-"logger": "readmeai.config.settings",
-"timestamp": "2025-06-12T09:56:39.911967Z",
-"filename": "settings.py",
-"func_name": "\_load_settings",
-"lineno": 276
-}
-{
-"event": "Pydantic settings: dict_keys(['config', 'ignore_list', 'languages', 'parsers', 'prompts', 'tool_config', 'tooling'])",
-"level": "info",
-"logger": "readmeai.cli.main",
-"timestamp": "2025-06-12T09:56:39.914000Z",
-"filename": "main.py",
-"func_name": "main",
-"lineno": 86
-}
-{
-"event": "Repository settings: repository='https://github.com/Ghanasyamns/roster-test' full_name='Ghanasyamns/roster-test' host_domain='github.com' host='github' name='roster-test'",
-"level": "info",
-"logger": "readmeai.cli.main",
-"timestamp": "2025-06-12T09:56:39.914229Z",
-"filename": "main.py",
-"func_name": "main",
-"lineno": 87
-}
-{
-"event": "LLM API settings: api='ANTHROPIC' base_url='https://api.openai.com/v1/chat/completions' context_window=3900 encoder='cl100k_base' host_name=Url('https://api.openai.com/') localhost=Url('http://localhost:11434/') model='claude-3-opus-20240229' path='v1/chat/completions' temperature=0.1 tokens=699 top_p=0.9",
-"level": "info",
-"logger": "readmeai.cli.main",
-"timestamp": "2025-06-12T09:56:39.914416Z",
-"filename": "main.py",
-"func_name": "main",
-"lineno": 88
-}
-{
-"event": "Total files analyzed: 54",
-"level": "info",
-"logger": "readmeai.**main**",
-"timestamp": "2025-06-12T09:56:40.500921Z",
-"filename": "**main**.py",
-"func_name": "log_repository_context",
-"lineno": 102
-}
-{
-"event": "Metadata extracted: {'cicd': {}, 'containers': {}, 'documentation': {}, 'package_managers': {'npm': 'package-lock.json, package.json'}}",
-"level": "info",
-"logger": "readmeai.**main**",
-"timestamp": "2025-06-12T09:56:40.501124Z",
-"filename": "**main**.py",
-"func_name": "log_repository_context",
-"lineno": 103
-}
-{
-"event": "Dependencies: ['npm', 'css', 'typescript', 'tsconfig.json', 'package-lock.json', 'package.json', 'components.json', 'javascript', '@radix-ui/react-label', 'typescript', '@radix-ui/react-dialog', 'tailwindcss', '@radix-ui/react-dropdown-menu', '@tailwindcss/postcss', '@eslint/eslintrc', 'tailwind-merge', '@types/react', '@radix-ui/react-popover', '@radix-ui/react-select', 'react-dom', 'lucide-react', 'next', 'class-variance-authority', 'tw-animate-css', 'react', '@types/react-dom', 'date-fns', 'eslint-config-next', '@radix-ui/react-slot', '@radix-ui/react-avatar', 'clsx', '@radix-ui/react-accordion', 'eslint', 'react-day-picker', '@types/node']",
-"level": "info",
-"logger": "readmeai.**main**",
-"timestamp": "2025-06-12T09:56:40.503072Z",
-"filename": "**main**.py",
-"func_name": "log_repository_context",
-"lineno": 104
-}
-{
-"event": "Languages: {'json': 4, 'ts': 3, 'js': 1, 'mjs': 2, 'tsx': 43, 'css': 1}",
-"level": "info",
-"logger": "readmeai.**main**",
-"timestamp": "2025-06-12T09:56:40.503223Z",
-"filename": "**main**.py",
-"func_name": "log_repository_context",
-"lineno": 105
-}
-{
-"event": "Anthropic library is not available. Some features will be disabled.",
-"level": "warning",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.503430Z",
-"filename": "anthropic.py",
-"func_name": "**init**",
-"lineno": 47
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.505381Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.505766Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.505965Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.506151Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.506379Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.506540Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.506811Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.506988Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.507154Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.507343Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.507487Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.507642Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.507826Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.507980Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.508119Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.508327Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.508580Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.508727Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.508886Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.509043Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.509210Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.509412Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.509593Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.509734Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.509879Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.510027Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.510350Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.510580Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.510741Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.510900Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.511057Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.511233Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.511381Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.511521Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.511665Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.511799Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.511961Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.512256Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.512413Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.512548Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.512681Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.512818Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.512967Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.513114Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.513292Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.513484Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.513631Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.513870Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.514032Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.514178Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.514380Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.514523Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.514661Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.514799Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.515152Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.515479Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "Cannot make request: Anthropic library is not available.",
-"level": "error",
-"logger": "readmeai.models.base",
-"timestamp": "2025-06-12T09:56:40.515679Z",
-"filename": "anthropic.py",
-"func_name": "\_make_request",
-"lineno": 94
-}
-{
-"event": "README.md file generated successfully.",
-"level": "info",
-"logger": "readmeai.**main**",
-"timestamp": "2025-06-12T09:56:40.526283Z",
-"filename": "**main**.py",
-"func_name": "log_process_completion",
-"lineno": 110
-}
-{
-"event": "Output file saved @ /tmp/tmpyn6o_1yu.md",
-"level": "info",
-"logger": "readmeai.**main**",
-"timestamp": "2025-06-12T09:56:40.526421Z",
-"filename": "**main**.py",
-"func_name": "log_process_completion",
-"lineno": 111
-}
-{
-"event": "Share with us @ github.com/eli64s/readme-ai/discussions",
-"level": "info",
-"logger": "readmeai.**main**",
-"timestamp": "2025-06-12T09:56:40.526515Z",
-"filename": "**main**.py",
-"func_name": "log_process_completion",
-"lineno": 112
-}
+<p align="center">
+    <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
+</p>
+<p align="center"><h1 align="center">ROSTER-TEST</h1></p>
+<p align="center">
+    <em><code>❯ REPLACE-ME</code></em>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/github/license/Ghanasyamns/roster-test?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+    <img src="https://img.shields.io/github/last-commit/Ghanasyamns/roster-test?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+    <img src="https://img.shields.io/github/languages/top/Ghanasyamns/roster-test?style=default&color=0080ff" alt="repo-top-language">
+    <img src="https://img.shields.io/github/languages/count/Ghanasyamns/roster-test?style=default&color=0080ff" alt="repo-language-count">
+</p>
+<p align="center"><!-- default option, no dependency badges. -->
+</p>
+<p align="center">
+    <!-- default option, no dependency badges. -->
+</p>
+<br>
+
+## Table of Contents
+
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Project Structure](#-project-structure)
+  - [ Project Index](#-project-index)
+- [ Getting Started](#-getting-started)
+  - [ Prerequisites](#-prerequisites)
+  - [ Installation](#-installation)
+  - [ Usage](#-usage)
+  - [ Testing](#-testing)
+- [ Project Roadmap](#-project-roadmap)
+- [ Contributing](#-contributing)
+- [ License](#-license)
+- [ Acknowledgments](#-acknowledgments)
+
+---
+
+## Overview
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## Features
+
+<code>❯ REPLACE-ME</code>
+
+---
+
+## Project Structure
+
+```sh
+└── roster-test/
+    ├── README.md
+    ├── components.json
+    ├── eslint.config.mjs
+    ├── next.config.ts
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── public
+    │   ├── file.svg
+    │   ├── globe.svg
+    │   ├── next.svg
+    │   ├── vercel.svg
+    │   └── window.svg
+    ├── src
+    │   ├── app
+    │   ├── components
+    │   ├── data
+    │   └── lib
+    ├── tailwind.config.js
+    └── tsconfig.json
+```
+
+### Project Index
+
+<details open>
+    <summary><b><code>ROSTER-TEST/</code></b></summary>
+    <details> <!-- __root__ Submodule -->
+        <summary><b>__root__</b></summary>
+        <blockquote>
+            <table>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/package-lock.json'>package-lock.json</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/next.config.ts'>next.config.ts</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/tsconfig.json'>tsconfig.json</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/tailwind.config.js'>tailwind.config.js</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/eslint.config.mjs'>eslint.config.mjs</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/postcss.config.mjs'>postcss.config.mjs</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/package.json'>package.json</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            <tr>
+                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/components.json'>components.json</a></b></td>
+                <td><code>❯ REPLACE-ME</code></td>
+            </tr>
+            </table>
+        </blockquote>
+    </details>
+    <details> <!-- src Submodule -->
+        <summary><b>src</b></summary>
+        <blockquote>
+            <details>
+                <summary><b>lib</b></summary>
+                <blockquote>
+                    <table>
+                    <tr>
+                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/lib/utils.ts'>utils.ts</a></b></td>
+                        <td><code>❯ REPLACE-ME</code></td>
+                    </tr>
+                    </table>
+                </blockquote>
+            </details>
+            <details>
+                <summary><b>components</b></summary>
+                <blockquote>
+                    <table>
+                    <tr>
+                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/Navbar.tsx'>Navbar.tsx</a></b></td>
+                        <td><code>❯ REPLACE-ME</code></td>
+                    </tr>
+                    </table>
+                    <details>
+                        <summary><b>ui</b></summary>
+                        <blockquote>
+                            <table>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/accordion.tsx'>accordion.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/badge.tsx'>badge.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/label.tsx'>label.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/input.tsx'>input.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/textarea.tsx'>textarea.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/popover.tsx'>popover.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/select.tsx'>select.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/button.tsx'>button.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/dialog.tsx'>dialog.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/dropdown-menu.tsx'>dropdown-menu.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/avatar.tsx'>avatar.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/datePicker.tsx'>datePicker.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/calendar.tsx'>calendar.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/components/ui/card.tsx'>card.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            </table>
+                        </blockquote>
+                    </details>
+                </blockquote>
+            </details>
+            <details>
+                <summary><b>app</b></summary>
+                <blockquote>
+                    <table>
+                    <tr>
+                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/layout.tsx'>layout.tsx</a></b></td>
+                        <td><code>❯ REPLACE-ME</code></td>
+                    </tr>
+                    <tr>
+                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/globals.css'>globals.css</a></b></td>
+                        <td><code>❯ REPLACE-ME</code></td>
+                    </tr>
+                    <tr>
+                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/not-found.tsx'>not-found.tsx</a></b></td>
+                        <td><code>❯ REPLACE-ME</code></td>
+                    </tr>
+                    <tr>
+                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/page.tsx'>page.tsx</a></b></td>
+                        <td><code>❯ REPLACE-ME</code></td>
+                    </tr>
+                    <tr>
+                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/loading.tsx'>loading.tsx</a></b></td>
+                        <td><code>❯ REPLACE-ME</code></td>
+                    </tr>
+                    </table>
+                    <details>
+                        <summary><b>components</b></summary>
+                        <blockquote>
+                            <table>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/components/DesignSelector.tsx'>DesignSelector.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/components/ProfileCard.tsx'>ProfileCard.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            </table>
+                        </blockquote>
+                    </details>
+                    <details>
+                        <summary><b>[userId]</b></summary>
+                        <blockquote>
+                            <table>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/layout.tsx'>layout.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            <tr>
+                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/page.tsx'>page.tsx</a></b></td>
+                                <td><code>❯ REPLACE-ME</code></td>
+                            </tr>
+                            </table>
+                            <details>
+                                <summary><b>components</b></summary>
+                                <blockquote>
+                                    <table>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/components/Experience.tsx'>Experience.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/components/AboutMe.tsx'>AboutMe.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/components/WorkInfo.tsx'>WorkInfo.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/components/EmployerDetails.tsx'>EmployerDetails.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/components/ProjectCard.tsx'>ProjectCard.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/components/ExperienceForm.tsx'>ExperienceForm.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/[userId]/components/BasicInfo.tsx'>BasicInfo.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    </table>
+                                </blockquote>
+                            </details>
+                        </blockquote>
+                    </details>
+                    <details>
+                        <summary><b>portfolio2</b></summary>
+                        <blockquote>
+                            <details>
+                                <summary><b>[userId]</b></summary>
+                                <blockquote>
+                                    <table>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio2/[userId]/page.tsx'>page.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    </table>
+                                    <details>
+                                        <summary><b>components</b></summary>
+                                        <blockquote>
+                                            <table>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio2/[userId]/components/HeroImageSection.tsx'>HeroImageSection.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio2/[userId]/components/Footer.tsx'>Footer.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio2/[userId]/components/ExperienceSection.tsx'>ExperienceSection.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio2/[userId]/components/Contact.tsx'>Contact.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio2/[userId]/components/About.tsx'>About.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio2/[userId]/components/Navbar.tsx'>Navbar.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            </table>
+                                        </blockquote>
+                                    </details>
+                                </blockquote>
+                            </details>
+                        </blockquote>
+                    </details>
+                    <details>
+                        <summary><b>api</b></summary>
+                        <blockquote>
+                            <details>
+                                <summary><b>users</b></summary>
+                                <blockquote>
+                                    <details>
+                                        <summary><b>[userId]</b></summary>
+                                        <blockquote>
+                                            <table>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/api/users/[userId]/route.ts'>route.ts</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            </table>
+                                        </blockquote>
+                                    </details>
+                                </blockquote>
+                            </details>
+                        </blockquote>
+                    </details>
+                    <details>
+                        <summary><b>portfolio1</b></summary>
+                        <blockquote>
+                            <details>
+                                <summary><b>[userId]</b></summary>
+                                <blockquote>
+                                    <table>
+                                    <tr>
+                                        <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio1/[userId]/page.tsx'>page.tsx</a></b></td>
+                                        <td><code>❯ REPLACE-ME</code></td>
+                                    </tr>
+                                    </table>
+                                    <details>
+                                        <summary><b>components</b></summary>
+                                        <blockquote>
+                                            <table>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio1/[userId]/components/ExperienceSection.tsx'>ExperienceSection.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio1/[userId]/components/HeroSection.tsx'>HeroSection.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio1/[userId]/components/AboutMe.tsx'>AboutMe.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio1/[userId]/components/ContactSection.tsx'>ContactSection.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b><a href='https://github.com/Ghanasyamns/roster-test/blob/master/src/app/portfolio1/[userId]/components/ProjectCard.tsx'>ProjectCard.tsx</a></b></td>
+                                                <td><code>❯ REPLACE-ME</code></td>
+                                            </tr>
+                                            </table>
+                                        </blockquote>
+                                    </details>
+                                </blockquote>
+                            </details>
+                        </blockquote>
+                    </details>
+                </blockquote>
+            </details>
+        </blockquote>
+    </details>
+</details>
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Before getting started with roster-test, ensure your runtime environment meets the following requirements:
+
+- **Programming Language:** TypeScript
+- **Package Manager:** Npm
+
+### Installation
+
+Install roster-test using one of the following methods:
+
+**Build from source:**
+
+1. Clone the roster-test repository:
+
+```sh
+❯ git clone https://github.com/Ghanasyamns/roster-test
+```
+
+2. Navigate to the project directory:
+
+```sh
+❯ cd roster-test
+```
+
+3. Install the project dependencies:
+
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm install
+```
+
+### Usage
+
+Run roster-test using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm start
+```
+
+### Testing
+
+Run the test suite using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm test
+```
+
+---
+
+## Project Roadmap
+
+- [x] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
+
+---
+
+## Contributing
+
+- **💬 [Join the Discussions](https://github.com/Ghanasyamns/roster-test/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/Ghanasyamns/roster-test/issues)**: Submit bugs found or log feature requests for the `roster-test` project.
+- **💡 [Submit Pull Requests](https://github.com/Ghanasyamns/roster-test/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone https://github.com/Ghanasyamns/roster-test
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to github**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/Ghanasyamns/roster-test/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=Ghanasyamns/roster-test">
+   </a>
+</p>
+</details>
+
+---
+
+## License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+## Acknowledgments
+
+- List any resources, contributors, inspiration, etc. here.
+
+---
